@@ -1,7 +1,8 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
 import Box, { BoxProps } from '@mui/material/Box';
-import Button from '@mui/material/Button';
+import Button, { ButtonProps } from '@mui/material/Button';
+import { Link } from "react-router-dom";
 // import IconButton from '@mui/material/IconButton';
 // import SettingsIcon from '@mui/icons-material/Settings';
 // import Drawer from '@mui/material/Drawer';
@@ -30,6 +31,15 @@ const MapsNavigationStyled = styled(Box)<BoxProps>(({ theme }) => ({
   color: 'white'
 }));
 
+const ButtonStyled = styled(Button)<ButtonProps>(({ theme }) => ({
+  // position: 'absolute',
+  // top: 2,
+  // left: 50,
+  // zIndex: 2,
+  padding: theme.spacing(2),
+  // color: 'white'
+}));
+
 // const MenuStyled = styled(Box)<BoxProps>(({ theme }) => ({
 //  width: 250
 // }));
@@ -46,33 +56,27 @@ export function MapsNavigation({
   return (
     <MapsNavigationStyled {...other}>
       <div>
-        <Button
+        {/*<Button
            // target="_blank"
            component="a"
            href="/systems/0/terrains/0"
         >
          Map 1
         </Button>
-        <Button
-           // target="_blank"
-           component="a"
-           href="/systems/0/terrains/1"
-        >
-         Map 2
+        <Button variant="contained" href="/systems/0/terrains/1">
+          Link 1
+        </Button>*/}
+        <Button variant="contained" component={Link} to="/systems/0/terrains/0">
+          Map 1
         </Button>
-        <Button
-           // target="_blank"
-           component="a"
-           href="/systems/0/terrains/2"
-        >
-         Map 3
+        <Button variant="contained" component={Link} to="/systems/0/terrains/1">
+          Map 2
         </Button>
-        <Button
-           // target="_blank"
-           component="a"
-           href="/systems/0/terrains/3"
-        >
-         Map 4
+        <Button variant="contained" component={Link} to="/systems/0/terrains/2">
+          Map 3
+        </Button>
+        <Button variant="contained" component={Link} to="/systems/0/terrains/3">
+          Map 4
         </Button>
       </div>
     </MapsNavigationStyled>

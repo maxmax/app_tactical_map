@@ -11,6 +11,7 @@ function Terrain({
   geometry,
   shaderMaterial
 }: TerrainPlaneProps) {
+
   // Load the heightmap image
   // const heightMap = useTexture("/uluru-heightmap.png");
   const heightMap = useTexture(uluruHeightmap);
@@ -30,46 +31,12 @@ function Terrain({
   textureMap.wrapT = RepeatWrapping;
   textureMap.anisotropy = 16;
 
-  // const fogColor = new Color('black');
-  const shaderMaterialRef = useRef();
-
-  // console.log('shaderMaterialRef_______', shaderMaterialRef.current);
-
-  useEffect(() => {
-    if (shaderMaterialRef?.current) {
-      console.log('shaderMaterialRef___1____', shaderMaterialRef.current);
-      // shaderMaterialRef.current.fog = true;
-    }
-  }, [shaderMaterialRef]);
-
-  // useEffect(() => {
-    // menuStore?.menu?.length
-    // menuStore?.getMenu && menuStore.getMenu();
-    // console.log('mesh2Ref_______', mesh2Ref);
-    // if (mesh2Ref?.current) {
-      // console.log('mesh2Ref______11_', mesh2Ref?.current);
-      // mesh2Ref.current?.material?.onBeforeCompile = (shader: any) => {
-      //  console.log('kkkkkk!');
-      // };
-      // mesh2Ref?.current?.fog = true;
-    // }
-  // }, [mesh2Ref]);
-
   const uniformsUtilsFog = UniformsUtils.merge([UniformsLib['fog']]);
 
   const uniformsUtilsLights = UniformsUtils.merge([UniformsLib['lights'],
     { diffuse: { type: 'c', value: new Color(0xff00ff) } }
     // { "uniform1": { value: 1.0 }, "uniform2": { value: 2 } }
   ]);
-
-  // var uniforms = THREE.UniformsUtils.merge( [
-  //	THREE.UniformsLib[ "lights" ],
-  // ]);
-
-  // const uniforms = UniformsUtils.merge( [
-  //    THREE.UniformsLib[ "lights" ],
-  //    shader.uniforms
-  // ] );
 
   return (
     <mesh
@@ -87,7 +54,7 @@ function Terrain({
       ]} />
       {/*<boxGeometry args={[1024, 1024, 10]} />*/}
         <shaderMaterial
-        ref={shaderMaterialRef}
+        // ref={shaderMaterialRef}
         uniforms={{
           // Feed the heightmap
           bumpTexture: { value: heightMap },

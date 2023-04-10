@@ -41,7 +41,12 @@ const StyledAppBase = styled.div`
 
 function AppMapScene(props: AppMapSceneProps) {
 
-  const { pointLight, perspectiveCamera, objects, terrainFog }: any = props?.terrain;
+  const { pointLight, perspectiveCamera, objects, terrainFog, plane }: any = props?.terrain;
+
+  // function Notify() {
+  //  useEffect(() => console.log("all models are in the scene now"), [])
+  //  return null
+  // }
 
   return (
     <>
@@ -75,9 +80,7 @@ function AppMapScene(props: AppMapSceneProps) {
         />
 
         <Suspense fallback={null}>
-          <group>
-            <Terrain { ...props?.terrain?.plane }/>
-          </group>
+          <Terrain { ...plane }/>
         </Suspense>
 
         {/*<Plane args={[100, 100, 1, 9]} rotation-x={Math.PI / -2} position-y="-1">
@@ -108,27 +111,40 @@ function AppMapScene(props: AppMapSceneProps) {
 
 const AppMap = inject('sceneStore')(observer((props: AppMapProps) => {
 
-  const params = useParams();
+  // const [terrainStateId, setTerrainStateId] = useState(0);
+  // const [counter, setCounter] = useState<string>('type_0')
+
+  const { id } = useParams();
 
   const {
     sceneStore
   } = props;
 
+  // console.log('params____', id);
+
   const terrain = toJS(sceneStore?.terrain) || null;
+
+  // console.log('terrain___________', terrain);
 
   const getDetail = (props: DialogInfoProps) => {
     sceneStore?.getInfoDialog && sceneStore?.getInfoDialog(props);
   }
 
   useEffect(() => {
-    sceneStore?.getTerrain && sceneStore.getTerrain(params.id || 0);
-  }, [params]);
+    sceneStore?.getTerrain && sceneStore.getTerrain(id || 0);
+    console.log('params__useEffect__', id);
+    // window.location.reload();
+    // setTerrainStateId(params?.id || 0)
+    // setTerrainState(toJS(sceneStore?.terrain) || null);
+    // window.location.reload(false);
+    // setCounter('type_' + id)
+  }, [id]);
 
   return (
     <>
       <StyledAppBase>
         <GroupBar />
-        <MapsNavigation />
+        {/*<MapsNavigation />*/}
         {terrain &&
           <>
             <AppMapScene
