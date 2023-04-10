@@ -63,7 +63,7 @@
               "near": 0.01,
               "far": 1000,
               "aspect": 2,
-              "fov": 40
+              "fov": 60
             },
             "terrainFog": {
               "color": "#000000",
