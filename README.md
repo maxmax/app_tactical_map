@@ -13,10 +13,10 @@
 
 #### Як запустити проект локально, потребує базових технічних знань
 - Завантажити репозиторій:
--- git clone https://github.com/maxmax/app_tactical_map.git або за допомогою download
--- npm install
--- npm start
--- або для того, щоб зібрати готову версію - npm build
+- - git clone https://github.com/maxmax/app_tactical_map.git або за допомогою download
+- - npm install
+- - npm start
+- - або для того, щоб зібрати готову версію - npm build
 
 
 - З усіх питань звертайтесь на електронну адресу maxbakaiev@gmail.com або пишить у signal
