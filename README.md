@@ -1,6 +1,7 @@
 # App tactical map
 
-### Demo: https://tacticalappssaga.com/
+### Demo with heightmap + react/threejs: https://tacticalappssaga.com/
+### Demo export from QGIS to threejs https://tacticalappssaga.com/testplan/
 - Електронна версія для зручності зроблена в браузері, та залита на мій сервер, але це може бути і як окрема програма як для пк так і для телефонів, планшетів. Може працювати як в онлайн, так і в офлайн режимі.
 - Усі вихідники проекту знаходяться в корені цього репозиторію.
 - Повертайте карту в просторі із затиснутою клавішею миші або тачпаду.
