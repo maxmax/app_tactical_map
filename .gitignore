@@ -9,6 +9,9 @@ lerna-debug.log*
 # Example directories
 exmap/
 
+# Dev directories
+app_tactical_map/mapsQGIS/operation_plan/dev
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 

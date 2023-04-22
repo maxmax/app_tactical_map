@@ -1,0 +1,440 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Arctic_Foxes_Infantry_company_1_df205d79_70e9_4f4e_b61d_99e8a95e37b0": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_Infantry_company_4_798c6e5c_42f4_4b19_8c43_d1cb5b84f0a2": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_Motorized_company_2_cabedec0_d08a_4b9a_b2ed_3e4c70e01654": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_Motorized_company_3_db6a7771_baaf_43f2_a781_b08a18353be3": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Hospital_138b6a79_bc24_4913_91d8_993bcbba6769": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Infantry_company_1_7d5ad5ba_6b5b_4fc2_8506_1990cb22584a": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Infantry_company_4_64632f4f_84c5_4cc1_8620_4d9f47c24601": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Infantry_company_4_7375a140_b4b1_4938_a7a3_73de5ace53f2": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Infantry_company_4_fe4f931d_d1f3_48a4_9f97_737d57f4efb1": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Motorized_company_3_88ee024f_d093_4bac_9edd_52c66ff7e94a": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X05_Motorized_infantry_company_5_3cd3a1b9_95ea_4ad7_a20d_900b15cc61ed": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_Foxes_X07_SF_1_347c64ea_d989_4639_803e_81532205b692": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_X05_Foxes_Artillery_battery_1_7ba0551a_a8f5_4d12_ad54_fb554dc23c6e": {
+        "enabled": true,
+        "groups": []
+      },
+      "Arctic_X05_Foxes_artillery_forward_observers_battery_1_1_9de348a1_612c_4035_98de_d64a8ad3b3be": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_Armour_company_1_cffdeb24_933c_4c3a_958a_cd3d38f873b5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_Infantry_company_1_94115d86_bd0d_4426_887f_d73676672ea1": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_Infantry_company_1_abc201cc_7ab0_4d35_9f0c_3df7bfd752e6": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_Mechanized_Infantry_company_2_30d838af_fcdc_4c55_96d4_ade3fe5e80d4": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_Mechanized_Infantry_company_3_09208e22_bebd_4fb9_99d6_6bafe2c3a383": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_Mechanized_Infantry_company_3_812618f4_02ed_4d6e_9061_66b2e87decb3": {
+        "enabled": true,
+        "groups": []
+      },
+      "Chickens_X022_motorized_infantry_company_1_1961fee0_544a_4397_9c3b_eaa8154920e5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Type_Arctic_Foxes_837886d3_e377_42e8_9cc7_3df2e0461507": {
+        "enabled": true,
+        "groups": []
+      },
+      "Type_Arctic_Foxes_deb284f4_4d1d_439d_96ad_b1929ef4f542": {
+        "enabled": true,
+        "groups": []
+      },
+      "Type_Chickens_5db80e3f_8097_41b6_966b_f86923d26513": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:9aa15c71": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_Infantry_company_1_df205d79_70e9_4f4e_b61d_99e8a95e37b0",
+      "name": "Arctic_Foxes_X05_Infantry_company_1",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "\"Arctic_Foxes_X05_Infantry_company_1\"",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "\"Arctic_Foxes_X05_Infantry_company_1\"",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "\"Arctic_Foxes_X05_Infantry_company_1\"",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"Arctic_Foxes_X05_Infantry_company_1\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "171.0",
+          "type": 1
+        },
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Infantry_company_1_7d5ad5ba_6b5b_4fc2_8506_1990cb22584a",
+      "name": "Arctic_Foxes_X05_Infantry_company_1_3",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_Motorized_company_2_cabedec0_d08a_4b9a_b2ed_3e4c70e01654",
+      "name": "Arctic_Foxes_X05_Motorized_company_2",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_Motorized_company_3_db6a7771_baaf_43f2_a781_b08a18353be3",
+      "name": "Arctic_Foxes_X05_Motorized_company_3",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Motorized_company_3_88ee024f_d093_4bac_9edd_52c66ff7e94a",
+      "name": "Arctic_Foxes_X05_Hospital",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Hospital_138b6a79_bc24_4913_91d8_993bcbba6769",
+      "name": "Arctic_Foxes_X05_Medical",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_Infantry_company_4_798c6e5c_42f4_4b19_8c43_d1cb5b84f0a2",
+      "name": "Arctic_Foxes_X05_Infantry_company_4",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Infantry_company_4_64632f4f_84c5_4cc1_8620_4d9f47c24601",
+      "name": "Arctic_Foxes_X05_Motorized_infantry_company_5",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Motorized_infantry_company_5_3cd3a1b9_95ea_4ad7_a20d_900b15cc61ed",
+      "name": "Arctic_Foxes_X05_headquarters",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Infantry_company_4_fe4f931d_d1f3_48a4_9f97_737d57f4efb1",
+      "name": "Arctic_Foxes_X07_SF_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X07_SF_1_347c64ea_d989_4639_803e_81532205b692",
+      "name": "Arctic_Foxes_X07_SF_1_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Type_Arctic_Foxes_deb284f4_4d1d_439d_96ad_b1929ef4f542",
+      "name": "Arctic_X05_Foxes_Artillery_battery_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_X05_Foxes_Artillery_battery_1_7ba0551a_a8f5_4d12_ad54_fb554dc23c6e",
+      "name": "Arctic_X05_Foxes_artillery_forward_observers_battery_1_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_X05_Foxes_artillery_forward_observers_battery_1_1_9de348a1_612c_4035_98de_d64a8ad3b3be",
+      "name": "Arctic_X055_Foxes_UAV",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Arctic_Foxes_X05_Infantry_company_4_7375a140_b4b1_4938_a7a3_73de5ace53f2",
+      "name": "Arctic_Foxes_X05_Reconnaissance_1_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Type_Arctic_Foxes_837886d3_e377_42e8_9cc7_3df2e0461507",
+      "name": "Type_Arctic_Foxes",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_Infantry_company_1_94115d86_bd0d_4426_887f_d73676672ea1",
+      "name": "Chickens_X022_motorized_infantry_company_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_X022_motorized_infantry_company_1_1961fee0_544a_4397_9c3b_eaa8154920e5",
+      "name": "Chickens_X011_airmobile_infantry_company_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_Mechanized_Infantry_company_3_812618f4_02ed_4d6e_9061_66b2e87decb3",
+      "name": "Chickens_Armour_company_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_Armour_company_1_cffdeb24_933c_4c3a_958a_cd3d38f873b5",
+      "name": "Chickens_Self-propelled_anti-aircraft_artillery_company_1_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_Infantry_company_1_abc201cc_7ab0_4d35_9f0c_3df7bfd752e6",
+      "name": "Chickens_Mechanized_Infantry_company_2",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_Mechanized_Infantry_company_2_30d838af_fcdc_4c55_96d4_ade3fe5e80d4",
+      "name": "Chickens_Mechanized_Infantry_company_3",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Chickens_Mechanized_Infantry_company_3_09208e22_bebd_4fb9_99d6_6bafe2c3a383",
+      "name": "Chickens_Mechanized_Infantry_company_Reconnaissance_3_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Type_Chickens_5db80e3f_8097_41b6_966b_f86923d26513",
+      "name": "Type_Chickens",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:9aa15c71",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "af2be33e",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "af2be33e",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "OPT": {},
+  "OutputFilename": "/Users/maxbakaiev/Apps/app_tactical_map/mapsQGIS/operation_plan/web_operational_tactical_map/index.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "3485830.681837868",
+    "lineEdit_CenterY": "6400206.206776254",
+    "lineEdit_Height": "17067.078918542713",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "17067.078918542713",
+    "lineEdit_zFactor": "1.0",
+    "radioButton_Color": true,
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer.html",
+  "Title": "operational_tactical_map_1",
+  "Version": 20701
+}
