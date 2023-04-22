@@ -4,9 +4,9 @@
 ### Demo export from QGIS to threejs https://tacticalappssaga.com/web_operational_tactical_map/
 
 ### Demo Топографічні карти зроблені в QGIS можна подивитися/скачать за цим посиланням:
-- https://raw.githubusercontent.com/maxmax/app_tactical_map/main/mapsQGIS/test_map.png
-- https://raw.githubusercontent.com/maxmax/app_tactical_map/mapsQGIS/test_map.qgz
+- https://github.com/maxmax/app_tactical_map/blob/main/mapsQGIS/test_map.png
+- https://github.com/maxmax/app_tactical_map/blob/main/mapsQGIS/test_map.qgz
 
 ### Demo Оперативні топографічні карти зроблені в QGIS можна подивитися/скачать за цим посиланням:
-- https://raw.githubusercontent.com/maxmax/app_tactical_map/mapsQGIS/operation_plan/operational_tactical_map_1.png
-- https://raw.githubusercontent.com/maxmax/app_tactical_map/mapsQGIS/operation_plan/operational_tactical_map_1.qgz
+- https://github.com/maxmax/app_tactical_map/blob/main/mapsQGIS/operation_plan/operational_tactical_map_1.png
+- https://github.com/maxmax/app_tactical_map/blob/main/mapsQGIS/operation_plan/operational_tactical_map_1.qgz
